@@ -63,27 +63,6 @@ Alimentador-Automatico/
 - [PlatformIO](https://platformio.org/) instalado (extensão para VS Code recomendada)
 - ESP32 conectado via USB
 
-### Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Giovanni-Cotrim/Alimentador-Automatico.git
-   ```
-
-2. Abra a pasta no VS Code com a extensão PlatformIO.
-
-3. As dependências serão instaladas automaticamente conforme o `platformio.ini`.
-
-4. Compile e envie para o ESP32:
-   ```bash
-   pio run --target upload
-   ```
-
-5. Monitore a saída serial (115200 baud) para verificar o funcionamento:
-   ```bash
-   pio device monitor
-   ```
-
 ---
 
 ## 📦 Dependências
